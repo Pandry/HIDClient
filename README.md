@@ -1,11 +1,11 @@
 # HIDClient
 hidclient fork from http://anselm.hoffmeister.be/computer/hidclient/index.html.en
 
-#What is this about?
+# What is this about?
 The hidclient program makes a Bluetooth® technology equipped computer appear as a Bluetooth® keyboard and mouse device to other machines. Input events (like keystrokes and mouse movements) of the locally attached input devices will be forwarded to another machine via the Bluetooth® link.
 For the counterpart (which might be a Linux PC, a Win PC, a PDA...) there is no technical difference to "real" Bluetooth® input devices.  
 
-#What will I need?
+# What will I need?
 A Linux PC (or laptop, possibly a PDA would do...?) that runs the Bluez Software.
 Most distributions should supply this.
 A Bluetooth® dongle (USB-Stick...) for this machine
@@ -13,17 +13,17 @@ Another device that is able to handle Bluetooth® input devices: A PC, PDA or si
 The bluez header files (for compiling the sources)
 The hidclient source code (see below).  
 
-#What am I allowed to do with this program?
+# What am I allowed to do with this program?
 Well, you may use it, read the source code, give the files to other people, change it - basically anything provided you stay within the limits of the GNU General Public License version 2 (or any later version, at your choice).  
 This program is "free software" (both as in speech and in beer), you do not need to pay any royalties for using it. Keep with the GPL.
 
 
-#Requirement  
+# Requirement  
 HIDClient requires libbluetooth from bluez.
 You can install the library on a Debian-based distro with this command:
 ```apt install libbluetooth-dev```
 
-#How to?
+# How to?
 Download the repo archive.  
 Compile hidclient.c with  
 ```gcc -o hidclient -O2 -lbluetooth -Wall hidclient.c```  
